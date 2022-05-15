@@ -19,7 +19,11 @@ Na linuxe je ho možné spustiť pomocou príkazu ./game</p>
 <p>Keď v rade, stĺpci alebo diagonále sa nachádzajú rovnaké znaky. Resp. ak sa zaplnia všetky políčka a nie je možné určiť víťaza hra končí remízou. Po skončení hry je ponúknuté menu s možnosťami: nová hra a ukončiť program.</p>
 
 
+<h2> Popis funkcií: </h2>
 
+```javascript
+int checkwin(struct game* state)
+```
 
 
 
