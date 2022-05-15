@@ -1,6 +1,27 @@
 # TicTacToe
 
-<h2> TicTacToe </h2>
+<h2> Stručný popis </h2>
+<p>Klasická hra Piškvorky 3x3. Pri hre sa striedajú dvaja hráči, pričom zapisujú X alebo O do mriežky. Pokiaľ sa v rade, stĺpci alebo diagonále nachádzajú 3 rovnaké znaky, daný hráč vyhráva hru.</p>
+
+<h2> Preloženie hry </h2>
+<p>Zdrojové súbory v priečinku sa prekladajú pomocou priloženého Makefile príkazom make (respektíve ./make). Všetky tieto súbory sa musia nachádzať v rovnakom priečinku.</p>
+
+
+<h2> Spustenie hry </h2>
+<p>Po preložení/buildnutí pomocou make sa vytvorí spustiteľný súbor game (na windowse game.exe)
+Na linuxe je ho možné spustiť pomocou príkazu ./game</p>
+
+<h2> Ako sa hra hrá </h2>
+<p>Klasicky, striedajú sa dvaja hráči a zadávajú svoj znak na zvolenú pozíciu</p>
+
+
+<h2> Kedy hra končí </h2>
+<p>Keď v rade, stĺpci alebo diagonále sa nachádzajú rovnaké znaky. Resp. ak sa zaplnia všetky políčka a nie je možné určiť víťaza hra končí remízou. Po skončení hry je ponúknuté menu s možnosťami: nová hra a ukončiť program.</p>
+
+
+
+
+
 
 <p><em>Software Enginner at <a href="http://www.unb.br">University of Brasilia</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer Consultant at <a href="https://www.thoughtworks.com">ThoughtWorks</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
